@@ -19,9 +19,16 @@ class FizzBuzzTranslateTest {
         assertEquals(expected, result);
     }
     @Test
-    void testValue35() {
-        int number = 35;
+    void testValue30() {
+        int number = 30;
         String expected = "FizzBuzz";
+        String result = FizzBuzzTranslate.getTranslate(number);
+        assertEquals(expected, result);
+    }
+    @Test
+    void testValue26() {
+        int number = 26;
+        String expected = "26";
         String result = FizzBuzzTranslate.getTranslate(number);
         assertEquals(expected, result);
     }
