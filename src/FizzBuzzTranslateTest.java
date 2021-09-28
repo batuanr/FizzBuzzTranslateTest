@@ -11,4 +11,11 @@ class FizzBuzzTranslateTest {
         String result = FizzBuzzTranslate.getTranslate(number);
         assertEquals(expected, result);
     }
+    @Test
+    void testValue5() {
+        int number = 5;
+        String expected = "Buzz";
+        String result = FizzBuzzTranslate.getTranslate(number);
+        assertEquals(expected, result);
+    }
 }
