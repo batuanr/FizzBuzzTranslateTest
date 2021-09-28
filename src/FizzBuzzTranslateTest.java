@@ -28,7 +28,7 @@ class FizzBuzzTranslateTest {
     @Test
     void testValue26() {
         int number = 26;
-        String expected = "26";
+        String expected = "hai sau";
         String result = FizzBuzzTranslate.getTranslate(number);
         assertEquals(expected, result);
     }
